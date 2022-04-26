@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <style>
+       *{
+    text-align: center;
+   
+}
+body{
+    background-image:linear-gradient(
+        rgba(4, 9, 30, 0.7),
+        rgba(4, 9, 30, 0.7)
+      ), url(https://cutewallpaper.org/22/aesthetic-simple-laptop-wallpapers/peach-aesthetic-laptop-wallpapers-top-free-peach-aesthetic-laptop-backgrounds-wallpaperaccess.jpg);
+}
+h1{
+    font-size: 60px;
+        font-weight: 800;
+        font-family: "Poppins", sans-serif;
+        color: transparent;
+        -webkit-text-stroke: 2px white;
+}
+#slider {
+    position: relative; 
+    height: 600px;
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.point{
+    position: relative; 
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    
+}
+
+.image{
+    width: 40px;
+    height: 40px;
+}
+
+.point:hover{
+cursor: pointer;}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
+   </style>
+    <title>JavaScript Image Slider</title>
+</head>
+<body>
+    <h1>Aesthetic Wallpaper Gallery</h1>
+    <div id="slider">
+        <div class="point" ><img id="left" src="https://cdn.iconscout.com/icon/free/png-64/chevron-with-circle-left-1859434-1577830.png" class="image"></div>
+        <div class="point" ><img id="right" src="https://cdn.iconscout.com/icon/free/png-64/chevron-with-circle-right-1859433-1577829.png" class="image"></div>
+    </div>
+    <script src="slider.js"></script>
+</body>
+<footer></footer>
+</html>
